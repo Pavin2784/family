@@ -3,3 +3,9 @@ df.replace({
      'windspeed':[-99999,-88888],
     'event': 'no event',
      },np.nan)
+
+     f = pd.DataFrame({
+    'score': ['exceptional','average', 'good', 'poor', 'average', 'exceptional'],
+    'student': ['rob', 'maya', 'parthiv', 'tom', 'julian', 'erica']
+})
+df

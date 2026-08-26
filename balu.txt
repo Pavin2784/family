@@ -4,3 +4,9 @@ new_df = df.replace({
         'event': 'no event'
     }, np.nan)
 new_df
+
+new_df = df.replace({
+        -99999: np.nan,
+        'no event': 'Sunny',
+    })
+new_df
