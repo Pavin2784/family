@@ -10,3 +10,5 @@ new_df = df.replace({
         'no event': 'Sunny',
     })
 new_df
+
+thank you 
