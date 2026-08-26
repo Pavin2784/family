@@ -1,0 +1,5 @@
+df.replace({ 
+    'temperature': -99999,
+     'windspeed':[-99999,-88888],
+    'event': 'no event',
+     },np.nan)

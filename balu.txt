@@ -1,0 +1,6 @@
+new_df = df.replace({
+        'temperature': -99999,
+        'windspeed': -99999,
+        'event': 'no event'
+    }, np.nan)
+new_df
